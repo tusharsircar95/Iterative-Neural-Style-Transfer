@@ -38,15 +38,17 @@ Different hyperparameter settings can be appropriate for different sets of image
 
 
 
-## USAGE
+### Usage
 ```
 IMAGE_SIZE = <IMAGE_SIZE>
 content_image_filename = <content_image_filename>
 style_image_filename = <style_image_filename>
 run_style_transfer(content_image_filename=content_image_filename,
                   style_image_filename=style_image_filename,
-                  epochs=1000,
-                   learning_rate=10.0,
+                  epochs=<number_of_epochs>,
+                  learning_rate=<learning_rate>,
+                  alpha=<content_weight>,
+                  beta=<style_weight>
                   prefix=<prefix_of_generated_output_filenames>)
 ```
 
@@ -58,6 +60,8 @@ style_image_filename = './/starry_night.jpg'
 run_style_transfer(content_image_filename=content_image_filename,
                   style_image_filename=style_image_filename,
                   epochs=1000,
-                   learning_rate=10.0,
+                  learning_rate=10.0,
+                  alpha=10,
+                  beta=1e-1,
                   prefix='dog-starry_night')
 ``` 
