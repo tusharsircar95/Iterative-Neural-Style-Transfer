@@ -3,7 +3,7 @@ Tensorflow implementation of neural style transfer as proposed by Gatys et al.in
 
 Sharing a simplified implementation of the style transfer algorithm. Code has been written and executed on GoogleCollab.
 
-The below examples have been generated with 1000 iterations of Adam Optimizer (lr=5.0) with content (_&alpha;_) and style (_&beta;_) weights set to 1e1 and 1e-2 respectively.
+The below examples have been generated with 1000 iterations of Adam Optimizer (lr= 5.0 to 20.0) with content (_&alpha;_) and style (_&beta;_) weights set to roughly 1e1 and 1e-1 respectively.
 The original paper mentioned that the ratio _&alpha;_/_&beta;_ was set to 1e-3, 1e-4 or 1e-5 but somehow I was not able to achieve good results with it.
 
 Size of images ranged from 320x320 to 512x512 and took roughly 45-60 mins to train.
@@ -17,7 +17,7 @@ Different hyperparameter settings can be appropriate for different sets of image
 <p align="center">
 <img src="images/content/building.jpg" width="280" height="280"/>
 <img src="images/content/dog.jpg" width="280" height="280"/>
-<img src="images/content/wolf.jpg" width="280" height="280"/>
+<img src="images/content/knight.jpg" width="280" height="280"/>
 </p>
 
 ### Style Images
@@ -37,6 +37,11 @@ Different hyperparameter settings can be appropriate for different sets of image
 </p>
 
 
+<p align="center">
+<img src="images/cubist_style_transfers/dog-cubist_1000.jpg" width="280" height="280"/>
+<img src="images/starry_night_style_transfers/dog-starry_night_1000.jpg" width="280" height="280"/>
+<img src="images/patterned_leaves_style_transfers/dog-patterned_leaves_500.jpg" width="280" height="280"/>
+</p>
 
 ### Usage
 ```
