@@ -12,6 +12,14 @@ Different hyperparameter settings can be appropriate for different sets of image
 
 ## Examples
 
+### Content Images
+
+<p align="center">
+<img src="images/content/building.jpg" width="280" height="280"/>
+<img src="images/content/dog.jpg" width="280" height="280"/>
+<img src="images/content/wolf.jpg" width="280" height="280"/>
+</p>
+
 ### Style Images
 
 <p align="center">
