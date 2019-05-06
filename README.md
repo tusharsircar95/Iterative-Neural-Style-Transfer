@@ -43,6 +43,12 @@ Different hyperparameter settings can be appropriate for different sets of image
 <img src="images/patterned_leaves_style_transfers/dog-patterned_leaves_500.jpg" width="280" height="280"/>
 </p>
 
+<p align="center">
+<img src="images/cubist_style_transfers/knight-cubist_500.jpg" width="280" height="280"/>
+<img src="images/starry_night_style_transfers/knight-starry_night_1000.jpg" width="280" height="280"/>
+<img src="images/patterned_leaves_style_transfers/knight-patterned_leaves_500.jpg" width="280" height="280"/>
+</p>
+
 ### Usage
 ```
 IMAGE_SIZE = <IMAGE_SIZE>
