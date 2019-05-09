@@ -46,7 +46,7 @@ Different hyperparameter settings can be appropriate for different sets of image
 <p align="center">
 <img src="images/cubist_style_transfers/knight-cubist_1250.png" width="280" height="280"/>
 <img src="images/starry_night_style_transfers/knight-starry_night_1000.jpg" width="280" height="280"/>
-<img src="images/patterned_leaves_style_transfers/knight-patterned_leaves_1750.jpg" width="280" height="280"/>
+<img src="images/patterned_leaves_style_transfers/knight-patterned_leaves_3000_high_res.jpg" width="280" height="280"/>
 </p>
 
 ### Usage
