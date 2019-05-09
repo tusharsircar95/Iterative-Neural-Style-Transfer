@@ -6,7 +6,8 @@ Sharing a simplified implementation of the style transfer algorithm. Code has be
 The below examples have been generated with 1000 iterations of Adam Optimizer (lr= 5.0 to 20.0) with content (_&alpha;_) and style (_&beta;_) weights set to roughly 1e1 and 1e-1 respectively.
 The original paper mentioned that the ratio _&alpha;_/_&beta;_ was set to 1e-3, 1e-4 or 1e-5 but somehow I was not able to achieve good results with it.
 
-Size of images ranged from 320x320 to 512x512 and took roughly 45-60 mins to train.
+Size of images ranged from 320x320 to 512x512 and took ~45-60 mins to train on CPU and ~2 mins on a GPU.
+Computation time increases accordingly if the image size is set to be large.
 
 Different hyperparameter settings can be appropriate for different sets of images.
 
