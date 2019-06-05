@@ -2,6 +2,7 @@
 Tensorflow implementation of neural style transfer as proposed by Gatys et al.in the paper <a href="http://arxiv.org/abs/1508.06576">A Neural Algorithm of Artistic Style</a>
 
 Sharing a simplified implementation of the style transfer algorithm. Code has been written and executed on GoogleCollab.
+A brief explanation can be found <a href="https://medium.com/@tusharsircar95/neural-style-transfer-simplified-b91b990028d">here</a>
 
 The below examples have been generated with 1000 iterations of Adam Optimizer (lr= 5.0 to 20.0) with content (_&alpha;_) and style (_&beta;_) weights set to roughly 1e1 and 1e-1 respectively.
 The original paper mentioned that the ratio _&alpha;_/_&beta;_ was set to 1e-3, 1e-4 or 1e-5 but somehow I was not able to achieve good results with it.
